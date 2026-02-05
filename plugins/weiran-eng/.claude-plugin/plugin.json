@@ -1,0 +1,10 @@
+{
+  "name": "weiran-eng",
+  "description": "Weiran 研发流程工具集：BRD 访谈、PRD 撰写/审查/自动化、HLD 撰写/审查",
+  "author": {
+    "name": "Duoli",
+    "email": "zhaody901@gmail.com"
+  },
+  "skills": "./skills",
+  "commands": "./commands"
+}

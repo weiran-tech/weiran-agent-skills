@@ -1,0 +1,43 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "weiran-agent-skills",
+  "description": "Weiran Project 的 Agent Skills 集合，提供产品研发流程中的各类专业技能",
+  "owner": {
+    "name": "Duoli",
+    "email": "zhaody901@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "weiran-eng",
+      "description": "研发流程工具集：BRD 访谈、PRD 撰写/审查/自动化、HLD 撰写/审查。命令：/weiran-eng:brd-interviewer, /weiran-eng:prd-writer, /weiran-eng:prd-reviewer, /weiran-eng:prd-studio, /weiran-eng:hld-writer, /weiran-eng:hld-reviewer",
+      "version": "1.0.0",
+      "source": "./plugins/weiran-eng",
+      "category": "productivity",
+      "homepage": "https://github.com/weiran-tech/weiran-agent-skills"
+    },
+    {
+      "name": "weiran-llm",
+      "description": "AI/LLM 工具集：Skill 创建、Prompt 优化。命令：/weiran-llm:skill-creator, /weiran-llm:prompt-optimizer",
+      "version": "1.0.0",
+      "source": "./plugins/weiran-llm",
+      "category": "productivity",
+      "homepage": "https://github.com/weiran-tech/weiran-agent-skills"
+    },
+    {
+      "name": "weiran-mrkt",
+      "description": "营销内容工具集：自媒体文章创作，支持公众号、知乎、小红书、LinkedIn、Medium、Reddit。命令：/weiran-mrkt:media-writer",
+      "version": "1.0.0",
+      "source": "./plugins/weiran-mrkt",
+      "category": "productivity",
+      "homepage": "https://github.com/weiran-tech/weiran-agent-skills"
+    },
+    {
+      "name": "weiran-bot",
+      "description": "weiran 测试平台智能助手（通用版）：测试用例管理、流水线编排、执行监控、故障诊断、CI/CD 集成。兼容 VS Code Copilot、GitHub Copilot 等平台。命令：/weiran-bot:case, /weiran-bot:pipeline, /weiran-bot:tests, /weiran-bot:debug, /weiran-bot:orchestrator, /weiran-bot:workspace",
+      "version": "2.0.0",
+      "source": "./plugins/weiran-bot",
+      "category": "automation",
+      "homepage": "https://github.com/weiran-tech/weiran-agent-skills"
+    }
+  ]
+}

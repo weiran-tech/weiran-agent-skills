@@ -1,0 +1,10 @@
+{
+  "name": "weiran-llm",
+  "description": "Weiran AI/LLM 工具集：Skill 创建、Prompt 优化",
+  "author": {
+    "name": "Duoli",
+    "email": "zhaody901@gmail.com"
+  },
+  "skills": "./skills",
+  "commands": "./commands"
+}

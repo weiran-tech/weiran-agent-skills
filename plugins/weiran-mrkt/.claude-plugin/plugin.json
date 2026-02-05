@@ -1,0 +1,10 @@
+{
+  "name": "weiran-mrkt",
+  "description": "Weiran 营销内容工具集：自媒体文章创作",
+  "author": {
+    "name": "Duoli",
+    "email": "zhaody901@gmail.com"
+  },
+  "skills": "./skills",
+  "commands": "./commands"
+}

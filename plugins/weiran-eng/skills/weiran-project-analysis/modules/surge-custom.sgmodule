@@ -1,0 +1,7 @@
+#!name=Ops Squid HK
+#!desc=针对 ops-squid-hk.os.kr36.ink 的路由规则
+#!system=mac
+
+[Rule]
+# 这里的 DIRECT 表示直连。如果你希望该域名走代理，请改为 Proxy 或具体的策略组名称
+DOMAIN,ops-squid-hk.os.kr36.ink,DIRECT

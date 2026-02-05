@@ -1,0 +1,11 @@
+{
+  "name": "weiran-bot",
+  "version": "2.0.0",
+  "description": "Weiran 测试平台智能助手 - 支持测试用例管理、流水线编排、执行监控、故障诊断、CI/CD 集成",
+  "author": {
+    "name": "duoli",
+    "email": "zhaody901@gmail.com"
+  },
+  "skills": "./skills",
+  "commands": "./commands"
+}
