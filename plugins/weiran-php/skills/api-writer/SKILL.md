@@ -1,5 +1,5 @@
 ---
-name: weiran-api-writer
+name: api-writer
 description: Automates OpenAPI (Swagger) documentation generation for Laravel controllers in Weiran Framework. Handles Request/Response classes and PHP Attributes.
 ---
 

@@ -1,0 +1,9 @@
+{
+  "name": "weiran-util",
+  "description": "Weiran 研发工具集：API 编写、项目分析",
+  "author": {
+    "name": "Duoli",
+    "email": "zhaody901@gmail.com"
+  },
+  "skills": "./skills"
+}

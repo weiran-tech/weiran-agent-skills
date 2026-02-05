@@ -1,5 +1,5 @@
 ---
-name: weiran-project-analysis
+name: project-analysis
 description: Systematic project analysis for Weiran Framework (Laravel 10.x + PHP 8.2) covering quality, testing, API documentation, and architecture.
 ---
 
