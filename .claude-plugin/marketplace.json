@@ -38,6 +38,14 @@
       "source": "./plugins/weiran-bot",
       "category": "automation",
       "homepage": "https://github.com/weiran-tech/weiran-agent-skills"
+    },
+    {
+      "name": "weiran-php",
+      "description": "weiran Project 帮助命令。命令：/weiran-php:api-writer, /weiran-php:project-analysis",
+      "version": "2.0.0",
+      "source": "./plugins/weiran-php",
+      "category": "automation",
+      "homepage": "https://github.com/weiran-tech/weiran-agent-skills"
     }
   ]
 }
